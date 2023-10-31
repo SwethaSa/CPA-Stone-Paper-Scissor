@@ -1,0 +1,93 @@
+#stone,
+#paper,
+#scissors,
+#end {
+  height: 4cm;
+  width: 4cm;
+  border-radius: 1cm;
+  outline: none;
+  border: none;
+  background-color: limegreen;
+  font-size: 90px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#end {
+  background-color: crimson;
+  font-size: xx-large;
+  height: 3cm;
+  width: 3cm;
+}
+
+#stone:hover {
+  background-color: rgb(145, 233, 145);
+  cursor: grab;
+}
+#paper:hover {
+  background-color: rgb(145, 233, 145);
+  cursor: grab;
+}
+
+#scissors:hover {
+  background-color: rgb(145, 233, 145);
+  cursor: grab;
+}
+#end:hover {
+  background-color: rgb(192, 51, 82);
+  cursor: grab;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+body {
+  background-color: rgb(141, 221, 141);
+  font-family: Merienda;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  text-shadow: 2px 2px lime;
+  color: rgb(3, 41, 5);
+}
+
+.text {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  text-shadow: 2px 1px lime;
+  color: rgb(3, 41, 5);
+  background-color: limegreen;
+  border-top-left-radius: 1cm;
+  border-bottom-right-radius: 1cm;
+  box-shadow: 0 4px 8px 0 rgba(243, 240, 61, 0.2),
+    0 6px 30px 0 rgba(0, 0, 0, 20);
+  font-weight: bolder;
+  max-width: 11cm;
+}
+
+.text:hover {
+  transform: translateY(-2px);
+}
+/* .text1 {
+  justify-content: center;
+  align-items: center;
+} */
+
+.txt {
+  font-size: 30px;
+}

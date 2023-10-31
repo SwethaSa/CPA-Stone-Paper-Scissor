@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockPaperScissors</title>
+    <link rel="icon" href="asstes/STone.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&family=Kalam&family=Merienda:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="heading">Stone Paper Scissors</h1>
+
+    <div class="main">
+      <div class="container">
+        <div class="game" value="stone" id="stone">✊🏻</div>
+        <div class="game" value="paper" id="paper">✋🏻</div>
+        <div class="game" value="scissors" id="scissors">✌🏻</div>
+      </div>
+      <div class="text1">
+        <div class="text">
+          <p class="txt" id="points">Score</p>
+          <p class="txt" id="selectedP">Your's Choice</p>
+          <p class="txt" id="selectedC">Computer's Choice</p>
+          <p class="txt" id="msg">Win or Lose</p>
+        </div>
+      </div>
+      <div class="btn">
+        <button id="end" onclick="handleClear()">🧹</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
