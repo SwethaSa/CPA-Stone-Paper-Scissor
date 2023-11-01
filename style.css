@@ -1,6 +1,6 @@
-#stone,
-#paper,
-#scissors,
+#Stone,
+#Paper,
+#Scissors,
 #end {
   height: 4cm;
   width: 4cm;
@@ -8,7 +8,7 @@
   outline: none;
   border: none;
   background-color: limegreen;
-  font-size: 90px;
+  font-size: 70px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -19,16 +19,16 @@
   width: 3cm;
 }
 
-#stone:hover {
+#Stone:hover {
   background-color: rgb(145, 233, 145);
   cursor: grab;
 }
-#paper:hover {
+#Paper:hover {
   background-color: rgb(145, 233, 145);
   cursor: grab;
 }
 
-#scissors:hover {
+#Scissors:hover {
   background-color: rgb(145, 233, 145);
   cursor: grab;
 }
@@ -90,4 +90,12 @@ body {
 
 .txt {
   font-size: 30px;
+}
+
+.name {
+  font-size: small;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(3, 41, 5);
+  text-shadow: 2px 1px lime;
 }
